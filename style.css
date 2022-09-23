@@ -1,0 +1,1361 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#app{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+ /* header-section */
+
+.hero{
+    width: 100%;
+    height: 92px;
+    box-shadow: 0 5px 20px rgb(0 41 112 / 19%);
+    position: sticky;
+}
+.header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 77px;
+    padding-top: 28px;
+}
+
+.header .logo-1{
+    position: relative;
+    width: 181px;
+    height: auto;
+    margin-left: 18px;
+    cursor: pointer;
+}
+nav ul li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-left: 55px;
+    
+}
+nav ul li a{
+    font-size: 16px;
+    color: #000000;
+    padding: 0px -20px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    background: transparent;
+   
+    
+    background-color:rgb(0 41 112 / 5%);
+    
+}
+
+.hero .sign{
+    margin: 0px 40px 0px;
+}
+
+.sign-btn{
+    padding: 10px 20px;
+    text-align: center;
+    align-items: center;
+    background: transparent;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #00baf2;
+    border: none;
+}
+.sign-btn:hover{
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+
+
+.kyc{
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px 0px;
+    box-shadow: inherit;
+}
+.kyc span{
+    font-size: 15px;
+    padding: 0px 0px;
+    font-weight: 600;
+}
+.kyc .emoji{
+    font-size: 20px;
+    align-items: center;
+}
+.kyc .more{
+    cursor: pointer;
+}
+
+    /* container-section-1 Payments APP*/
+
+#col-1{
+    
+  
+   
+    padding: 128px 0 120px;
+    width: 1260px;
+    margin: auto;
+}
+
+
+.container-1{
+    width: 100%;
+}
+.list-1{
+    width: 70%;
+}
+
+.container-1 .paytmlogo-1{
+    width: 79px;
+    height: 79px;
+    margin-bottom: 48px;
+    border: 1px solid rgb(0 41 112 / 1%);
+}
+.container-1 h1{
+    font-size: 55px;
+    color: #000;
+    font-family: 'Inter',sans-serif;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 13px;
+}
+
+.container-1 p{
+    font-size: 21px;
+    line-height: 1.4;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 34px;
+}
+
+.payments-logo{
+    position: absolute;
+    right: 5px;
+    top: 26.1%;
+    z-index: 1;
+    width: 528px;
+    height: 503px;
+}
+
+.container-1 button{
+    padding: 11px 24px;
+    font-size: 16px;
+    text-align: inherit;
+    font-weight: 500;
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.container-1 button:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.container-1 i{
+    color: whitesmoke;
+    padding-left: 1px;
+    text-align: center;
+    font-size: 19px;
+}
+button .bx{
+    font-size: 18px;
+}
+
+
+    /* container-section-2 Recharge and pay*/
+
+#col-2{
+    background-color: #00BAf2;
+    display: block;
+    margin: auto;
+    height: 400px;
+    align-items: center;
+
+}
+
+.recharge-list{
+    margin-left: 10%;
+    padding: 50px 0px;
+}
+
+.recharge-list h1{
+    font-size: 37px;
+    color: white;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.cards{
+    display: flex;
+    margin-top: 25px;
+}
+
+.recharge-1 {
+    width: 140px;
+    margin-right: 32px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 16px 11px 16px 16px;
+    justify-content: space-between;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.recharge-1:hover{
+    position: relative;
+    background: transparent;
+   
+    border-radius: 25px;
+    background-color:rgb(0 41 112 / 9%);
+    
+    
+}
+
+.recharge-1 .bill-logo{
+    width: 64px;
+    height: 64px;
+    margin-top: 25px;
+    margin-left: 3px;
+    margin-right: 115px;
+    cursor: pointer;
+}
+.recharge-1 h6{
+    margin-top: 10px;
+    color: whitesmoke;
+    align-items: center;
+    line-height: 1.5;
+    font-size: 17px;
+    font-family: 200;
+    cursor: pointer;
+}
+
+
+       /* container-section-3  book and buy*/
+
+
+
+#col-3{
+    background-color: #0f4a8a;
+    width: 100%;
+    height: 357px;
+}
+
+.book-list{
+    margin-left: 10%;
+    padding: 50px 0px;
+}
+
+.book-list h1{
+    font-size: 37px;
+    color: white;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.book-1 {
+    width: 140px;
+    margin-right: 32px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 16px 11px 16px 16px;
+    justify-content: space-between;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 25px;
+}
+.book-1:hover{
+    position: relative;
+    background: transparent;
+    background-color:rgb(0 41 112 / 40%);
+    border-radius: 25px;
+}
+
+.book-1 .bill-logo{
+    width: 64px;
+    height: 64px;
+    margin-top: 25px;
+    margin-left: 3px;
+    margin-right: 115px;
+    cursor: pointer;
+}
+.book-1 h6{
+    margin-top: 10px;
+    color: whitesmoke;
+    align-items: center;
+    line-height: 1.5;
+    font-size: 17px;
+    font-family: 200;
+    cursor: pointer;
+}
+
+
+#col-4{
+    width: 100%;
+    height: 873px;
+    color: #F5f7FA;
+    padding: 120px 0px 48px;
+}
+
+     /* container-section-4 wallet */
+
+.col-4{
+    width: 100%;
+    height: 873px;
+    background-color: #F5F7FA;
+    padding:120px 0px 48px ;
+}
+.col-4 h1{
+    margin: 0px 12% 30px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.col-4 .out-container{
+    width: 1170px;
+    height: 620px;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+.col-4 .inner-container{
+    position: relative;
+    align-items: center;
+}
+
+.col-4 .inside-container{
+    align-items: center;
+}
+.wallet-con .wallet{
+    width: 91px;
+    height: auto;
+    margin-top: 6.9rem;
+    margin-left: 7rem;
+}
+
+.inner-container h1{
+    width: 390px;
+    height: 84px;
+    font-size: 36px;
+    margin-top: 48px;
+    margin-right: 0;
+    margin-bottom: 2rem;
+    margin-left: 7.5rem;
+}
+.inner-container p{
+    margin-left: 7.5rem;
+    font-family: 'intern', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1.3;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.out-container .button-2{
+    margin-left: 7.5rem;
+    margin-top: 2.7rem;
+}
+
+.button-2 button{
+    padding: 11px 24px;
+    font-size: 14px;
+    text-align: inherit;
+    font-weight: 500;
+    background-color: #000;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.button-2 button:hover{
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.button-2 i{
+    color: whitesmoke;
+    padding-left: 1px;
+    text-align: center;
+    font-size: 19px;
+}
+button .bx{
+    font-size: 18px;
+}
+
+.out-container .wallet-side{
+    position: absolute;
+    right: 3rem;
+    top: 5.4rem;
+    width: 539px;
+    height: 460px;
+    align-items: center;
+}
+
+   /* container-section-5 Upi money */
+
+.col-5{
+    width: 100%;
+    height: 675px;
+    background-color: #F5F7FA;
+    padding-bottom: 48px;
+}
+
+.col-5 .out-container{
+    width: 1170px;
+    height: 620px;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+.col-5 .wallet{
+    width: 91px;
+    margin-top: 6.1rem;
+    margin-left: 7rem;
+}
+
+.col-5 .inner-container p{
+    padding-top: 28px;
+    margin-bottom: 0;
+    margin-left: 7.5rem;
+    font-family: 'intern', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1.3;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.col-5 .out-container .button-2{
+    margin-left: 7.5rem;
+    margin-top: 2.2rem;
+}
+
+   /* container-section-6  Post paid*/
+
+.col-6{
+    width: 100%;
+    height: 675px;
+    background-color: #F5F7FA;
+    padding-bottom: 48px;
+}
+
+.col-6 .out-container{
+    width: 1170px;
+    height: 620px;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+.col-6 .wallet{
+    height: 77px;
+    width: auto;
+    padding-right: 12px;
+}
+
+
+
+.col-6 .inner-container p{
+    padding-top: 10px;
+    margin-bottom: 0;
+    margin-left: 7.5rem;
+    font-family: 'intern', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1.3;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.col-6 .out-container .wallet-side{
+    position: absolute;
+    right: 3rem;
+    top: 5.4rem;
+    width: 433px;
+    height: 500px;
+    align-items: center;
+}
+
+.col-6 .button-2 button{
+    padding: 16px 40px;
+    text-align: center;
+    background-color: #0f4a8a;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.col-6 .button-2 button:hover{
+    background-color: #00baf2;
+    transition: .3s;
+}
+
+     /* container-section-7 */
+
+      /* left - container   bank*/
+
+.col-7{
+    width: 100%;
+    height: 830px;
+    background-color: #F5F7FA;
+}
+
+.card-container{
+    width: 1170px;
+    margin: auto;
+    padding: 0 0 130px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.cash-container{
+    width: 561px;
+    height: 700px;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 70px 64px 0;
+    margin-right: 48px;
+    position: relative;
+}
+.cash-container .banks{
+    width: 185px;
+    height: 77px;
+}
+
+.cash-container h1{
+    color: #000;
+    font-size: 40px;
+    padding: 20px 0 0;
+    font-weight: 700;
+}
+.cash-container p{
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.cash-container .sumit-card{
+    width: 463px;
+    height: 296px;
+    position: absolute;
+    bottom: 0;
+}
+
+    /* right - container  SBI bank */
+
+.card-container .credit-container{
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 70px 64px 0;
+    position: relative;
+}
+
+.credit-container .banks-right{
+    width: 185px;
+    height: auto;
+    margin-top: 54px;
+}
+
+.credit-container h1{
+    color: #000;
+    font-size: 40px;
+    padding: 18px 0 0;
+    font-weight: 700;
+}
+.credit-container p{
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.credit-container .kumar-card{
+    width: 463px;
+    height: 296px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+   /* container-section-8 Payments bank */
+
+.col-8{
+    width: 100%;
+    height: 824px;
+    padding-bottom: 48px;
+    background-color: #ffffff;
+}
+.col-8 h1{
+    color: #000;
+    font-size: 48px;
+    margin: 0px 12% 35px;
+    font-weight: 700;
+    padding: 120px 0px 0px;
+}
+
+.col-8 .finance{
+    margin: 0 12%;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+}
+.col-8 .payments-bank{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: space-between;
+}
+.col-8 .payments-bank .bank-logo{
+    width: 212px;
+    height: auto;
+    padding-bottom: 12px;
+}
+.col-8 .payments-bank .text-1{
+    font-size: 40px;
+    margin-top: 48px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.col-8 .payments-bank span{
+    font-size: 20px;
+    margin-bottom: 45px;
+    padding-top: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.col-8 .finance button{
+    font-size: 25px;
+    margin-top: 30px;
+    padding: 20px 30px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #0f4A8A;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+}
+.col-8 .finance button:hover{
+    background-color: #002970;
+    color: whitesmoke;
+    transition: .4s;
+    transform: scale(1.1);
+}
+.col-8 .payments-bank .pay-logo{
+    width: 452px;
+    height: 500px;
+}
+
+     /* container-section-9  Money */
+
+
+.col-9{
+    background-image: url(images/paytm-bg.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 636px;
+    padding-bottom: 48px;
+    background-color: #F5F7FA;
+}
+.col-9 h1{
+    color: #000;
+    font-size: 48px;
+    margin: 0px 12% 35px;
+    font-weight: 700;
+    padding: 120px 0px 0px;
+}
+
+.col-9 .finance{
+    margin: 0 12%;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+}
+.col-9 .payments-bank{
+    display: flex;
+    width: 100%;
+    height: 587px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col-9 .paytm-money{
+    width: 472px;
+    height: 427.94px;
+    margin-right: 60px;
+}
+.col-9 .payments-bank .bank-logo{
+    width: 154px;
+    height: auto;
+    padding-bottom: 12px;
+}
+.col-9 .payments-bank .text-1{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 17px;
+    padding: 0;
+}
+
+.payments-bank span{
+    font-size: 20px;
+    margin-bottom: 45px;
+    padding-top: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.col-9 .finance button{
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 13px 25px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #0f4A8A;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+}
+.finance button:hover{
+    background-color: #002970;
+    color: whitesmoke;
+    transition: .4s;
+    transform: scale(1.1);
+}
+
+.payments-bank .money-bank{
+    width: 539px;
+    height: 422px;
+    margin-left: 98px;
+}
+
+      /* container-section-10  insurance*/
+
+.col-10{
+    width: 100%;
+    height: 606px;
+    padding-bottom: 48px;
+    background-color: #ffffff;
+}
+.col-10 .finance{
+    margin: 0 12%;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+}
+.col-10 .payments-bank{
+    display: flex;
+    width: 100%;
+    height: 558px;
+    padding: 80px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.col-10 .payments-bank .bank-logo{
+    width: 166.34px;
+    height: auto;
+    padding-bottom: 12px;
+}
+.col-10 .payments-bank .text-1{
+    font-size: 40px;
+    margin-top: 48px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.col-10 .payments-bank span{
+    font-size: 20px;
+    margin-bottom: 45px;
+    padding-top: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.col-10 .finance button{
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 13px 25px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #0f4A8A;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+}
+.col-10 .finance button:hover{
+    background-color: #002970;
+    color: whitesmoke;
+    transition: .4s;
+    transform: scale(1.1);
+}
+.col-10 .payments-bank .pay-logo{
+    width: 433px;
+    height: 398px;
+}
+
+    /* container-section-11 personal loan*/
+
+
+.col-11{
+    width: 100%;
+    height: 636px;
+    padding-bottom: 48px;
+    background-color: #F5F7FA;
+}
+.col-11 h1{
+    color: #000;
+    font-size: 48px;
+    margin: 0px 12% 35px;
+    font-weight: 700;
+    padding: 120px 0px 0px;
+}
+
+.col-11 .finance{
+    margin: 0 12%;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+}
+.col-11 .payments-bank{
+    display: flex;
+    width: 100%;
+    height: 587px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col-11 .paytm-money{
+    width: 433px;
+    height: 438.94px;
+    margin-right: 60px;
+}
+.col-11 .payments-bank .bank-logo{
+    width: 188px;
+    height: auto;
+    padding-bottom: 12px;
+}
+.col-11 .payments-bank .text-1{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 17px;
+    padding: 0;
+}
+
+.col-11.payments-bank span{
+    font-size: 20px;
+    margin-bottom: 45px;
+    padding-top: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.col-11 .finance button{
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 13px 25px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #0f4A8A;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+}
+.col-11 .finance button:hover{
+    background-color: #002970;
+    color: whitesmoke;
+    transition: .4s;
+    transform: scale(1.1);
+}
+
+.col-11 .payments-bank .money-bank{
+    width: 539px;
+    height: 422px;
+    margin-left: 98px;
+}
+
+     /* container-section-12  business services */
+
+
+.col-12{
+    width: 100%;
+    height: 877.2px;
+    background-color: #fff;
+    padding:120px 0px 48px ;
+}
+.col-12 h1{
+    margin: 0px 12% 35px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.col-12 .out-container{
+    width: 1170px;
+    height: 620px;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    z-index: 1;
+    background-color: #F5F7FA;
+}
+
+.col-12 .inner-container{
+    position: relative;
+    align-items: center;
+}
+
+.col-12 .inside-container{
+    align-items: center;
+    margin-top: 60px;
+}
+
+.col-12 .inner-container h1{
+    width: 390px;
+    height: 84px;
+    font-size: 36px;
+    margin-top: 48px;
+    margin-right: 0;
+    margin-bottom: 2rem;
+    margin-left: 7.5rem;
+}
+.col-12 .inner-container p{
+    margin-left: 7.5rem;
+    font-family: 'intern', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1.3;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.col-12 .out-container .button-2{
+    margin-left: 7.5rem;
+    margin-top: 2.7rem;
+}
+
+.col-12 .button-2 button{
+    padding: 16px 25px;
+    font-size: 17px;
+    text-align: inherit;
+    font-weight: 500;
+    border: none;
+    background-color: #0f4A8A;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.col-12 .button-2 button:hover{
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.col-12 .out-container .wallet-side{
+    position: absolute;
+    right: 0;
+    width: 433px;
+    height: 464.17px;
+    align-items: center;
+}
+
+
+     /* container-section-13  Shop payments */
+
+
+.col-13{
+    width: 100%;
+    height: 594px;
+    background-color: #fff;
+    padding: 0px 0px 48px ;
+}
+
+.col-13 .out-container{
+    width: 1170px;
+    height: 501px;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    z-index: 1;
+    background-color: #F5F7FA;
+}
+
+.col-13 .inner-container{
+    position: relative;
+    align-items: center;
+}
+
+.col-13 .inside-container{
+    align-items: center;
+    margin-top: 60px;
+}
+
+.col-13 .inner-container h1{
+    width: 390px;
+    height: 84px;
+    font-size: 36px;
+    margin-top: 48px;
+    margin-right: 0;
+    margin-bottom: 2rem;
+    margin-left: 7.5rem;
+}
+.col-13 .inner-container p{
+    margin-left: 7.5rem;
+    font-family: 'intern', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1.3;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.col-13 .out-container .button-2{
+    margin-left: 7.5rem;
+    margin-top: 2.7rem;
+}
+
+.col-13 .button-2 button{
+    padding: 16px 25px;
+    font-size: 17px;
+    text-align: inherit;
+    font-weight: 500;
+    border: none;
+    background-color: #0f4A8A;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.col-13 .button-2 button:hover{
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.col-13 .out-container .wallet-side{
+    position: absolute;
+    right: 0;
+    width: 433px;
+    height: 341px;
+    align-items: center;
+}
+
+     /* container-section-14 Business-tools */
+
+.col-14{
+    width: 100%;
+    height: 932px;
+    background-color: white;
+}
+
+.col-14 .business-tool{
+    width: 1920p;
+    height: 932px;
+    margin: 0 12%;
+    padding: 120px 0;
+}
+
+.col-14 h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    padding: 0 0 89px;
+}
+
+.col-14 .business-row{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+.col-14 .business-row .business-1{
+    width: 240px;
+    height: 507px;
+    margin: 0 90px 0 0;
+}
+
+.col-14 .business-1 .business-logo{
+    width: 240px;
+    height: 220px;
+}
+
+.col-14 .business-1 h2{
+    font-size: 26px;
+    color: #000;
+    padding: 40px 0px 20px;
+    font-weight: 700;
+}
+
+.col-14 .business-1 p{
+    font-size: 20px;
+    color: #000000;
+    margin: 20px 0px;
+    font-weight: 500;
+}
+
+.col-14 .business-1 a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+     /* container-section-15  -card */
+
+
+
+.col-15{
+    width: 100%;
+    height: 853px;
+    background-color: #F5f7FA;
+    padding:120px 0px;
+}
+
+.col-15 .out-container{
+    width: 1170px;
+    height: 613px;
+    margin: 0px 12%;
+    position: relative;
+    border-radius: 24px;
+    background: linear-gradient(138.58deg,#3861e5 1.93%,#3babee 76.4%);;
+    overflow: hidden;
+}
+
+.col-15 .inner-container{
+    position: relative;
+    align-items: center;
+}
+
+.col-15 .inside-container{
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.col-15 .wallet{
+    width: 145px;
+    height: 58.78px;
+    z-index: 3;
+}
+
+
+.col-15 .inner-container h2{
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 48px 0px 45px;
+    margin-right: 0;
+    margin-left: 7.5rem;
+    color: #fff;
+}
+.col-15 .inner-container p{
+    margin-left: 7.5rem;
+    font-family: 'intern', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1.3;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.col-15 .button-2 button{
+    padding: 16px 30px;
+    font-size: 17px;
+    text-align: inherit;
+    font-weight: 600;
+    border: none;
+    background-color: #0f4A8A;
+    color: #ffffff;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.col-15 button:hover{
+    color: #F5F7FA;
+    transition: .4s;
+}
+
+
+.col-15 .wallet-side{
+    width: 1099px;
+    height: 574.59px;
+
+}
+
+   /* Footer - Container  */
+
+
+
+.footer{
+    width: 100%;
+    height: 70vh;
+    background-color: #F5F7FA;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 120px 0px 0px;
+}
+.social-links .social-1{
+    padding: 0px 0px 70px;
+}
+
+.social-1 a{
+    padding: 0px 10px;
+}
+.social-1 .google{
+    width: 175px;
+    border-radius: 10px;
+}
+
+.social-1 .App-store{
+    border-radius: 10px;
+}
+
+
+.service-container{
+    width: 100%;
+    height: 40vh;
+    background-color: #F5F7FA;
+}
+
+.service-container .services{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.services{
+    padding: 0 5px;
+}
+.service-container .ser-1{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #FFF;
+    align-items: center;
+}
+
+.social-logos{
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.social-logos a{
+    font-size: 30px;
+    padding: 0 20px;
+    color: #000000;
+}
+
+.social-logos i:hover{
+    transform: scale(1.5);
+    transition: .4s;
+}
+
+.about-us{
+    padding-top: 5rem;
+    text-align: center;
+}
+.about-us span{
+    color: #000;
+
+}
+
+.bg{
+    width: 100%;
+    height: 587px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.footer{
+    height: 70px;
+    width: 100%;
+    background-color: #e3e7e9;
+    float: left;
+}
+
+.title6{
+    
+    font-size: 20px;
+    color: #000;
+    float: left;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.platform{
+    height: auto;
+    width: 500px;
+    float: left;
+    padding-top: 8px;
+
+}
+
+.platform img{
+    float: left;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.ic_social{
+    float: right;
+    padding-right: 80px;
+}
+
+.ic_social i{
+    font-size: 28px;
+    margin: 15px;
+}
+
+.light{
+    height: 12px;
+    width: 100%;
+    background-color: #00baf2;
+    float: left;
+}
+
+.dark{
+    height: 12px;
+    width: 100%;
+    background-color:#002970;
+    float: left;
+}
